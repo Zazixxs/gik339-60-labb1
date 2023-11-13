@@ -1,0 +1,35 @@
+:root{
+   
+    background: linear-gradient(90deg, rgb(7, 2, 104) 0%, rgba(43,43,196,1) 35%, rgb(91, 153, 165) 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+color: whitesmoke;
+text-align: center;
+}
+
+.form{
+    background-color:whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#color{
+    display: block;
+}
+
+#content{
+    display: block
+}
+
+#divStyle{
+    display: block;
+}
+
+#div{
+    margin: 1rem;
+    padding: 1.5rem;
+    border-style: solid;
+}
+
