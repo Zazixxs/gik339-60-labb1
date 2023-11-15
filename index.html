@@ -13,18 +13,22 @@
 <body>
 <section class="form">
     <label class="textfield" for="color">Färg:</label>
-        <input  type="text" id="color" name="color">
+        <input class="textfield" type="text" id="color" name="color">
 
     <label class="textfield" for="content">Innehåll:</label>
-        <input type="content" id="content" name="content" >
+        <input class="textfield" type="text" id="content" name="content" value="1234" >
 
+<div class="checkbox-button-container">
     <label class="checkbox" for="divStyle">Stil på box</label>
      <input type="checkbox" id="divStyle" name="divStyle">
+    </div>
 
-    <button id="remove_button">Ta bort</button>
-    <div id="div"></div>
+    <div id="div_element"></div>
+    <div class="button-container">
+    <button id="myBtn">Ta bort</button>
+    </div>
 </section>
     
-    <script> src="script.js" </script>
+    <script src="script.js"></script>
 </body>
 </html>

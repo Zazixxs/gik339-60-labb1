@@ -1,35 +1,53 @@
-:root{
-   
+:root
+    {
     background: linear-gradient(90deg, rgb(7, 2, 104) 0%, rgba(43,43,196,1) 35%, rgb(91, 153, 165) 100%);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    }
 
-h1{
-color: whitesmoke;
-text-align: center;
-}
+h1
+    {
+    color: whitesmoke;
+    text-align: center;
+    }
 
-.form{
+.form
+    {
     background-color:whitesmoke;
     border-radius: 1rem;
     padding: 1rem;
-}
+    }
 
-#color{
+#color
+    {
     display: block;
-}
+    }
 
-#content{
+#content
+    {
     display: block
-}
+    }
 
-#divStyle{
+#divStyle
+    {
     display: block;
-}
+    }
 
-#div{
+#div_element
+    {
     margin: 1rem;
     padding: 1.5rem;
     border-style: solid;
-}
+    }
 
+.checkbox-button-container
+    {
+    display: flex;
+    padding-top: 1rem;
+    }
+
+.button-container
+    {
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 1rem;
+    }
