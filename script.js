@@ -10,6 +10,7 @@ console.log(inputButton);
 let divfield = document.querySelectorAll("div.div");
 console.log(divfield);
 
+
 myBtnElement = document.getElementById("myBtn");
 myBtnElement.addEventListener("click", function(){
     console.log("Knappen klickades på!");
@@ -17,9 +18,12 @@ myBtnElement.addEventListener("click", function(){
 });
 
 
-function targetFunction(){
-    let text = inputText;
-    document.getElementById("div_element").innerHTML = text;
+function targetFunction(e){
+    console.log(e.traget);
+    let inputTarget = e.traget;
+    
 }
+
+
 
 

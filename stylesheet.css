@@ -4,6 +4,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
+    body{
+        width: 50%;
+        margin: auto;
+    }
+
 h1
     {
     color: whitesmoke;
@@ -17,20 +22,9 @@ h1
     padding: 1rem;
     }
 
-#color
-    {
-    display: block;
-    }
-
-#content
-    {
-    display: block
-    }
-
-#divStyle
-    {
-    display: block;
-    }
+#color,#content,#divStyle{
+display:flex;
+}
 
 #div_element
     {
