@@ -21,7 +21,6 @@ myBtnElement.addEventListener("click", function(){
 function targetFunction(e){
     console.log(e.traget);
     let inputTarget = e.traget;
-    
 }
 
 
