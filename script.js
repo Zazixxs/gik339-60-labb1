@@ -1,27 +1,38 @@
-let inputCheckbox = document.getElementById("checkbox");
-console.log(inputCheckbox);
 
-let inputText = document.getElementsByClassName("textfield");
-console.log(inputText);
+//Upphämtning
 
-let inputButton = document.getElementsByTagName("button");
-console.log(inputButton);
+let checkbox = document.getElementById('divStyle');
 
-let divfield = document.querySelectorAll("div.div");
-console.log(divfield);
+let textfields = document.querySelectorAll('.textfield');
+
+let button = document.getElementsByTagName('button')[0];
+
+let div = document.querySelector('#myDiv');
 
 
-myBtnElement = document.getElementById("myBtn");
-myBtnElement.addEventListener("click", function(){
-    console.log("Knappen klickades på!");
-    targetFunction()
+// Input och skapa egen eventHandler
+
+function handleInputEvent(e) {
+    console.log('Event triggered by:', e.target);
+
+    if (e.target.name === 'content') {
+        div.innerHTML = e.target.value;
+    }
+}
+checkbox.addEventListener('change', function() {
+    const color = document.getElementById('color').value;
+    div.style.backgroundColor = color;
 });
 
+// Eventlisterners
 
-function targetFunction(e){
-    console.log(e.traget);
-    let inputTarget = e.traget;
-}
+
+textfields.forEach(field => field.addEventListener('input', handleInputEvent));
+
+
+button.addEventListener('click', function() {
+    div.remove();
+});
 
 
 

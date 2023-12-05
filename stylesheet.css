@@ -1,47 +1,51 @@
-:root
-    {
-    background: linear-gradient(90deg, rgb(7, 2, 104) 0%, rgba(43,43,196,1) 35%, rgb(91, 153, 165) 100%);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-
-    body{
-        width: 50%;
-        margin: auto;
-    }
-
-h1
-    {
-    color: whitesmoke;
-    text-align: center;
-    }
-
-.form
-    {
-    background-color:whitesmoke;
-    border-radius: 1rem;
-    padding: 1rem;
-    }
-
-#color,#content,#divStyle{
-display:flex;
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-#div_element
-    {
-    margin: 1rem;
-    padding: 1.5rem;
-    border-style: solid;
-    }
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
 
-.checkbox-button-container
-    {
-    display: flex;
-    padding-top: 1rem;
-    }
+input[type="text"], input[type="checkbox"], button, div {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
 
-.button-container
-    {
-    display: flex;
-    justify-content:flex-end;
-    padding-right: 1rem;
-    }
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    min-height: 50px;
+    width: 200px;
+}
